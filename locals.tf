@@ -1,5 +1,5 @@
 locals {
-  sufix = "${var.tags.project}-${var.tags.env}-${var.tags.region}" #recurso-cerberus-prod-region
+  sufix = "${var.tags.project}-${var.tags.env}-${var.tags.region}" #recurso-jsolares-prod-region
 }
 
 resource "random_string" "sufijo-s3" {
